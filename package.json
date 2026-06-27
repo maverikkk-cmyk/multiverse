@@ -1,0 +1,46 @@
+{
+  "name": "multiverse-bot",
+  "version": "1.0.0",
+  "description": "MultiVerse Bot - Production Ready Telegram Multi Utility Bot",
+  "main": "bot.js",
+  "type": "commonjs",
+  "author": "OpenAI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "lint": "echo \"No lint configured\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "fs-extra": "^11.3.2",
+    "node-cache": "^5.1.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.1.0",
+    "wikipedia": "^2.1.2",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "nodejs",
+    "multiverse",
+    "weather",
+    "ai",
+    "downloader",
+    "utility",
+    "json-database"
+  ]
+}
